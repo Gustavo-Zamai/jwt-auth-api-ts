@@ -4,26 +4,28 @@
   "description": "API to authenticate users, to give access to micro services.",
   "main": "./dist/index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node ./dist/@types",
     "build": "tsc -p .",
     "dev": "ts-node-dev --respawn --transpile-only --ignore-watch node_modules --no-notify src/@types/index.ts"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Gustavo-Zamai/Authentication-API-REST.git"
+    "url": "git+https://github.com/Gustavo-Zamai/jwt-auth-api-ts.git"
   },
   "keywords": [
     "Javascript",
     "Typescript",
-    "NodeJS"
+    "NodeJS",
+    "JWT",
+    "Postgresql",
+    "Express"
   ],
   "author": "Gustavo Simão Zamai",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/Gustavo-Zamai/Authentication-API-REST/issues"
+    "url": "https://github.com/Gustavo-Zamai/jwt-auth-api-ts/issues"
   },
-  "homepage": "https://github.com/Gustavo-Zamai/Authentication-API-REST#readme",
+  "homepage": "https://github.com/Gustavo-Zamai/jwt-auth-api-ts#readme",
   "devDependencies": {
     "@types/express": "^4.17.13",
     "@types/jsonwebtoken": "^8.5.8",

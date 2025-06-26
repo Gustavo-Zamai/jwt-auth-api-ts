@@ -1,6 +1,6 @@
 import express from 'express';
 import jwtAuthenticationMiddleware from '../routes/authorization.route';
-import errorHandler from '../../middlewares/error-handler.middleware';
+import errorHandler from '../middlewares/error-handler.middleware';
 import authorizationRoute from '../routes/authorization.route';
 import statusRoute from '../routes/status.route';
 import usersRoute from '../routes/users.route';

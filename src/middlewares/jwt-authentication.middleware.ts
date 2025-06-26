@@ -1,7 +1,7 @@
 import { NextFunction, Request, Response } from "express";
 import JWT from "jsonwebtoken";
-import ForbiddenError from "../src/modules/errors/forbidden.error.model";
-import userRepository from "../src/repositories/user.repository";
+import ForbiddenError from "../modules/errors/forbidden.error.model";
+import userRepository from "../repositories/user.repository";
 
 async function jwtAuthenticationMiddleware(
   request: Request,
